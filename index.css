@@ -727,7 +727,7 @@ margin-top: 5%;
 }
 .cardrab{
     position: absolute;
-    margin-top: 90%;
+    margin-top: 90.5%;
     width: 80%;
     height: 500px;
     background-color: rgb(255, 255, 255);
@@ -788,6 +788,32 @@ width: 300px;
     line-height: 1.2em;
 }
 
+/*QUICHES*/
+.nssdlcqui{
+    margin-top: 116%;
+position: absolute;
+float: left;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 146, 86);
+}
+.nssdlcqui h1{
+    margin-left: 10%;
+    color: white;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 40px;
+}
+.cardqui{
+    position: absolute;
+    margin-top: 120%;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+
+
 
 
 /* TÍTULO CAROLINOS HOME NA IMAGEM */
@@ -797,28 +823,5 @@ width: 300px;
     padding-top: 450px;
 }
 
-.introd h2{
-    color: aliceblue;
-    font-family:Eras Demi ITC;
-    font-size: 80px;
-}
 
-.introd h5{
-    color: aliceblue;
-    font-family: Kunstler Script;
-    font-size: 50px;
-}
-
-hr{
-    border: 0;
-    height: 2px;
-    width: 100%;
-    background-image: linear-gradient(to right, transparent, #CCC, transparent);
-}
-
-.introd p{
-    color: aliceblue;
-    font-family: Kunstler Script;
-    font-size: 50px;
-}
 
