@@ -1,0 +1,824 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik:wght@500;700&display=swap');
+*
+
+/*
+Cinza claro:  216, 234, 238
+Azul vivo:  129, 209, 219
+Bege:  237, 174, 123
+Laranja vivo:  250, 113, 13
+Cinzinha:  156, 171, 162
+Azul morto:  127, 179, 175
+Vermelho alaranjado claro:  249, 148, 100
+Vermelho alaranjado escuro:   238, 136, 93
+
+azul muito escuro: 3, 67, 131
+azul escuro: 0, 117, 205
+azul claro: 1, 172, 250
+azul muito claro: 140, 204, 248
+rosinha : 228, 186, 187
+amarelinho: 255, 207, 145
+laranja: 243, 144, 103
+rosinha escura: 187, 123, 121
+*/
+
+/* MENU */
+{
+   
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+#b-menu{
+    width: 100%;
+  
+   position: absolute;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+#b-menu ul{ 
+  
+    text-align: center;
+    list-style-type: none;
+padding: 0;
+background-color: rgb(255, 255, 255);
+
+}
+
+#b-menu ul li{
+    display: inline;
+  text-align: center;
+}
+
+
+#b-menu ul li a{
+    
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 35px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+#b-menu ul li a:hover {
+color: rgb(31, 171, 226);
+transition: color .5s;
+}
+#b-menu ul li:first-child a{
+color:rgb(31, 171, 226) ;
+}
+
+
+#b-menu ul li:nth-child(2){
+    margin-right: 155px;
+}
+#b-menu ul li:nth-child(3){
+    margin-left: 120px;
+}
+#b-menu ul li:nth-child(1n+4) a{
+    text-align: right;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    top: 0px;
+    left: 42%;
+    width: 260px;
+    height: 64px;
+    background-image: url(Fotos/Logos/logodosite2.png);
+    background-size:200px;
+    background-repeat: no-repeat;
+    
+  }
+
+
+/* FIM MENU */
+
+
+.body1{
+
+    width: 100vw;
+    height: 100vh;
+    background: url(Fotos/Comidas/lllkedit2\ \(3\).jpg);
+    background-size: cover;
+    background-color: rgba(237, 174, 123,);
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+    background-blend-mode: darken;
+   
+  }
+
+
+
+
+/* SOBRE NÓS HOME */
+
+
+.aboutus{
+   text-decoration: none;
+    background-color: rgb(255, 255, 255);
+   margin-top: 34%;
+    margin-bottom: 5%;
+    padding: 100px, 0px;
+    align-items: left;
+   height: 350px;
+   
+    }
+.sobrenozes{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.aboutus h3{
+    margin-top: 1%;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 35px;
+    color: rgb(230, 146, 86);
+
+}
+.aboutus h2{
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 55px;
+    color: rgb(240, 111, 18);
+}
+
+.aboutus p{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(61, 61, 61);
+  
+    line-height: 1.7em;
+    
+}
+
+.lino img{
+    right: 140px;
+    width: 250px;
+    height: 255px;
+    border-radius: 100%;
+    position: absolute;
+    border:solid 7px;
+    border-color: rgb(140, 204, 248);
+
+}
+
+.dadai img{
+    width: 250px;
+    height: 255px;
+    border-radius: 100%;
+    position: absolute;
+    border:solid 7px;
+    border-color: rgb(140, 204, 248);
+    right: 330px;
+    margin-top: 8%;
+   
+}
+
+.aboutus h4{
+
+    color: rgb(219, 99, 13);
+    font-size: 30px;
+    margin-top: 35%;
+    position: absolute;
+    right: 30vw;
+}
+
+#botao{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 2%;
+    display: inline-block;
+    background: rgb(230, 146, 86);
+    font-size: 0.85em;
+    padding: 12px 35px;
+    font-size: 20px;
+    }
+    #botao:hover{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin: 2%;
+        display: inline-block;
+        background: rgba(0, 116, 205, 0.822);
+        font-size: 0.85em;
+        padding: 12px 35px;
+        font-size: 20px;
+        transition: 0.7s;
+        }
+
+    /* cardapio index */
+
+#cardaindex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(250, 224, 202);
+}    
+    
+#cardind1{
+    margin-top: 5%;
+    position: relative;
+    overflow: initial;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}   
+
+#cardind1 img{
+    width: 300px;
+    height: 300px;
+    position: relative; 
+    border-radius: 100%;
+    border: solid 7px;
+    border-color: white;
+}
+
+
+#cardind2{
+    margin-top: 5%;
+    position: relative;
+    overflow: initial;
+    margin-bottom: 5%;
+}
+     
+#cardind2 img{
+    width: 300px;
+    height: 300px;   
+    position: relative;
+    border-radius: 100%;
+    border: solid 7px;
+    border-color: white;
+}
+
+#cardind3{
+    text-decoration: none;
+    margin-top: 5%;
+    position: relative;
+    overflow: initial;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+     
+#cardind3 img{
+    width: 300px;
+    height: 300px;
+    position: relative;   
+    border-radius: 100%;
+    border: solid 7px;
+    border-color: white;
+}
+    
+#cardaindex h5{
+    text-align: center;
+    font-family: Tahoma;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(240, 111, 18);
+}
+   
+/* Entre em contato conosco index*/
+
+.entrecontat{
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5%;
+    padding: 100px, 0px;
+   height: 550px;  
+   margin-left: 10%;
+   margin-right: 10%;
+   
+}
+.entrecontat h2{
+    margin-bottom: 3%;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 40px;
+    color: rgb(240, 111, 18); 
+    margin-top: 3%;
+}
+
+.entrecontat p{
+    margin-left: 4.5%;
+    margin-top: 1%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+    line-height: 1.7em;
+    
+}
+.imgec img{
+  margin-top: 4%;
+right: 140px;
+position: absolute;
+width: 550px;
+}
+.contatx img{
+margin-top: 1%;
+    width: 50px;
+}
+.entrecontat h4{
+    margin-bottom: 2%;
+    margin-top: 3%;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 35px;
+    color: rgb(230, 146, 86);
+}
+.entrecontat a{
+ 
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+  
+    line-height: 1.7em;
+    
+}
+
+/*barra inferior*/
+
+.barrainfe{
+    height: 80px;
+    background-color: rgb(230, 146, 86);
+   
+    
+}
+.compface p{
+   margin-left: 10%;
+    margin-top: 1.7%;
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+}
+.compface a{
+    color:  rgb(172, 74, 5);
+    text-decoration: underline;
+}
+.compface a:hover{
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.75s;
+}
+.complugar p{
+    margin-left: 73%;
+    margin-top: 1.7%;
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em; 
+}
+
+
+/*SOBRE NÓS*/
+
+.body3{
+    width: 100vw;
+    background: url(Fotos/Comidas/panett9nedamasco3.jpg);
+    background-size: cover;
+    background-color: rgba(237, 174, 123,);
+    background-repeat: no-repeat;
+    background-position-y: 90px;
+    background-blend-mode: darken;
+}
+.carolinointro img{
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 36%;
+    width: 400px;
+}
+
+.sobrenospag {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: rgb(255, 255, 255);
+    height: 650px;
+    width: 100ch;
+    margin-top: 750px;
+    position: absolute;
+}
+.sobrenospag h1{
+    margin-bottom: 3%;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 40px;
+    color: rgb(240, 111, 18);
+    margin-top: 3%;
+}
+.sobrenospag p{
+    margin-left: 1%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: rgb(61, 61, 61);
+    line-height: 1.7em;
+    
+}
+.lino1 img{
+    margin-top: 24%;
+right: 1px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: absolute;
+    border:solid 7px;
+    border-color: rgb(240, 111, 18);
+
+}
+.dadai1 img{
+    margin-top: 7%;
+    right: 180px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    position: absolute;
+    border:solid 7px;
+    border-color: rgb(140, 204, 248);
+
+}
+
+.sobrenospagimg{
+  
+    background-color: rgb(250, 224, 202);
+    height: 750px ;
+    width: 100%;
+    margin-top: 1400px;
+position: absolute;
+}
+
+.bigimg img{
+    border: solid 7px;
+    border-color: white;
+  margin-top: 5%;
+    position: absolute;
+    width: 500px;
+    right: 140px;
+}
+
+.smaimg1 img{
+    border: solid 7px;
+    border-color: white;
+    position: absolute;
+    margin-top: 5%;
+    width: 360px;
+    left: 140px;
+}
+.smaimg2 img{
+    border: solid 7px;
+    border-color: white;
+    position: absolute;
+    margin-top: 27.8%;
+    width: 360px;
+    left: 350px;
+}
+
+
+/* barra inferiro */
+
+
+.barrainfe1{
+    position: absolute;
+    height: 80px;
+    background-color: rgb(230, 146, 86);
+   width: 100%;
+margin-top: 155%;
+}
+.compface1 p{
+   margin-left: 10%;
+    margin-top: 1.7%;
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em;
+}
+.compface1 a{
+    color:  rgb(172, 74, 5);
+    text-decoration: underline;
+}
+.compface1 a:hover{
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.75s;
+}
+.complugar1 p{
+    margin-left: 73%;
+    margin-top: 1.7%;
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.7em; 
+}
+
+/* CARDÁPIO */
+
+
+.body2{
+    background-color: rgba(237, 174, 123,);
+    
+}
+#carda1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(250, 224, 202);
+position: absolute;
+margin-top: 6%;
+}    
+    
+#card10{
+    margin-top: 5%;
+    position: relative;
+    overflow: initial;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}   
+
+#card10 img{
+    width: 300px;
+    height: 300px;
+    position: relative; 
+    border-radius: 100%;
+    border: solid 7px;
+    border-color: white;
+}
+
+
+#card20{
+    margin-top: 5%;
+    position: relative;
+    overflow: initial;
+    margin-bottom: 5%;
+}
+#card20 img{
+    width: 300px;
+    height: 300px;   
+    position: relative;
+    border-radius: 100%;
+    border: solid 7px;
+    border-color: white;
+}
+#card30{
+    text-decoration: none;
+    margin-top: 5%;
+    position: relative;
+    overflow: initial;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+#card30 img{
+    width: 300px;
+    height: 300px;
+    position: relative;   
+    border-radius: 100%;
+    border: solid 7px;
+    border-color: white;
+}
+    
+#carda1 h5{
+    text-align: center;
+    font-family: Tahoma;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(240, 111, 18);
+}
+
+
+
+
+/* MENU CARDÁPIO PAG */
+.nssdlcpa{
+    position: absolute;
+    margin-top: 40%;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 146, 86);
+
+}
+.nssdlcpa h1{
+    
+    margin-left: 10%;
+    color: white;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 40px;
+
+}
+
+
+/* panetones e chocotones*/
+
+.nssdlc_0{
+    position: absolute;
+    margin-top: 47%;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 10%;
+}
+    
+
+.itens_card{
+    background-color: rgba(205, 220, 230, 0.445);
+    width: 570px;
+    height: 240px;
+    position: relative;
+    overflow: initial;
+}
+.itens_card img{
+    margin-right: 2%;
+    display: block;
+    float: left;
+    position: relative;
+    width: 240px;
+    height: 240px;
+}
+
+.nssdlc_1{
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 66%;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.itens_card h3{
+    line-height: 1.2em;
+    margin-top: 3%;
+    margin-left: 5%;
+    color: rgb(240, 111, 18);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}
+.itens_card p{
+    margin-right: 1%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2em;
+}
+.tamanho_itens{
+    width: 80px;
+    bottom: 0px;
+}
+.tam_p img{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+.tam_m img{
+    position: absolute;
+    margin-top: 32px;
+    width: 45px;
+    height: 45px;
+}
+.tam_g img{
+    margin-top: 65px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+}
+.precos{
+    margin-top: 2%;
+    margin-left: 52%;
+}
+.precos :nth-child(2){
+margin-top: 5%;
+}
+.precos :nth-child(3){
+    margin-top: 5.3%;
+}
+
+
+/*RABANADAS CARDÁPIO*/
+.nssdlcrab{
+    position: absolute;
+    margin-top: 86.5%;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 146, 86);
+}
+.nssdlcrab h1{
+    
+    margin-left: 10%;
+    color: white;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 40px;
+
+}
+.cardrab{
+    position: absolute;
+    margin-top: 90%;
+    width: 80%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+}
+.itens_cardrab{
+    float: left;
+    margin-top: 5%;
+    background-color: rgba(205, 220, 230, 0.445);
+    width: 565px;
+    height: 240px;
+
+}
+.itens_cardrab img{
+    margin-right: 2%;
+    display: block;
+    float: left;
+    position: relative;
+    width: 240px;
+    height: 240px;
+}
+
+.itens_cardrab h3{
+    line-height: 1.2em;
+    margin-top: 3%;
+    margin-left: 5%;
+    color: rgb(240, 111, 18);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}
+.itens_cardrab p{
+    margin-right: 1%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2em;
+}
+.itens_cardrab h4{
+    margin-top: 2%;
+    margin-left: 5%;
+    color: rgb(240, 111, 18);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+.rabtab{
+    margin-top: 2%;
+    width: 300px;
+}
+.celula_0{
+width: 300px;
+}
+.rabtab a{
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2em;
+}
+
+
+
+/* TÍTULO CAROLINOS HOME NA IMAGEM */
+
+.introd{
+    text-align: center;
+    padding-top: 450px;
+}
+
+.introd h2{
+    color: aliceblue;
+    font-family:Eras Demi ITC;
+    font-size: 80px;
+}
+
+.introd h5{
+    color: aliceblue;
+    font-family: Kunstler Script;
+    font-size: 50px;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+}
+
+.introd p{
+    color: aliceblue;
+    font-family: Kunstler Script;
+    font-size: 50px;
+}
+
