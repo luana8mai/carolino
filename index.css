@@ -772,26 +772,34 @@ margin-top: 5%;
     font-family: 'Rubik', sans-serif;
     font-size: 20px;
 }
-.rabtab{
-    margin-top: 2%;
-    width: 300px;
-}
-.celula_0{
+
+.precosrab{
+    margin-top: 1%;
 width: 300px;
+margin-left: 45%;   
 }
-.rabtab a{
-    margin-left: 20%;
+.precosrab :nth-child(2n+1){
+    line-height: 1.2em;
+
+    color: rgb(240, 111, 18);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.precosrab a{
+    margin-right: 1%;
+    margin-top: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     color: rgb(82, 82, 82);
     line-height: 1.2em;
+    line-height: 40px;
 }
-
 /*QUICHES*/
 .nssdlcqui{
     margin-top: 116%;
-position: absolute;
-float: left;
+    position: absolute;
+    float: left;
     width: 100%;
     height: 50px;
     background-color: rgb(230, 146, 86);
@@ -807,7 +815,7 @@ float: left;
 .cardqui{
     display: flex;
     position: absolute;
-    margin-top: 120%;
+    margin-top: 123%;
     width: 80%;
     height: 500px;
     background-color: rgb(255, 255, 255);
@@ -850,30 +858,43 @@ float: left;
 }
 .tam_30 img{
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;
 }
 .uni_20 img{
     position: absolute;
-    margin-top: 32px;
-    width: 45px;
-    height: 45px;
+    margin-top: 37px;
+    width: 60px;
+    height: 60px;
 }
 .uni_10 img{
-    margin-top: 65px;
-    width: 45px;
-    height: 45px;
+    margin-top: 75px;
+    width: 60px;
+    height: 60px;
     position: absolute;
 }
+
 .precosqui{
+    margin-top: 1%;
+width: 300px;
+margin-left: 53%;   
+}
+.precosqui :nth-child(2n+1){
+    line-height: 1.2em;
+
+    color: rgb(240, 111, 18);
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+.precosqui a{
+    margin-right: 1%;
     margin-top: 2%;
-    margin-left: 52%;
-}
-.precosqui :nth-child(2){
-margin-top: 5%;
-}
-.precosqui :nth-child(3){
-    margin-top: 5.3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2em;
+    line-height: 40px;
 }
 
 
