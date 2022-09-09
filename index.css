@@ -631,7 +631,6 @@ margin-top: 6%;
     display: flex;
     margin-left: 10%;
 }
-    
 
 .itens_card{
     background-color: rgba(205, 220, 230, 0.445);
@@ -804,13 +803,77 @@ float: left;
     font-family: Tahoma;
     font-size: 40px;
 }
+
 .cardqui{
+    display: flex;
     position: absolute;
     margin-top: 120%;
     width: 80%;
     height: 500px;
     background-color: rgb(255, 255, 255);
     margin-left: 10%;
+}
+.itens_quiche{
+    background-color: rgba(205, 220, 230, 0.445);
+    width: 570px;
+    height: 240px;
+    position: relative;
+    overflow: initial;
+}
+.itens_quiche img{
+    margin-right: 2%;
+    display: block;
+    float: left;
+    position: relative;
+    width: 240px;
+    height: 240px;
+}
+.itens_quiche h3{
+    line-height: 1.2em;
+    margin-top: 3%;
+    margin-left: 5%;
+    color: rgb(240, 111, 18);
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}
+.itens_quiche p{
+    margin-right: 1%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+    line-height: 1.2em;
+}
+.unidades{
+    width: 80px;
+    bottom: 0px;
+}
+.tam_30 img{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+}
+.uni_20 img{
+    position: absolute;
+    margin-top: 32px;
+    width: 45px;
+    height: 45px;
+}
+.uni_10 img{
+    margin-top: 65px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+}
+.precosqui{
+    margin-top: 2%;
+    margin-left: 52%;
+}
+.precosqui :nth-child(2){
+margin-top: 5%;
+}
+.precosqui :nth-child(3){
+    margin-top: 5.3%;
 }
 
 
