@@ -920,3 +920,63 @@ margin-top: 162%;
     padding-top: 450px;
 }
 
+/* CONTATO */
+.marg{
+    height: 90px;
+}
+.entrecontat1{
+    text-decoration: none;
+    background-color: rgb(248, 234, 221);
+    margin-bottom: 5%;
+    padding: 100px, 0px;
+    height: 550px;  
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.entrecontat1 h2{
+    margin-bottom: 3%;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 40px;
+    color: rgb(240, 111, 18); 
+    margin-top: 3%;
+}
+.entrecontat1 p{
+    margin-left: 4.5%;
+    margin-top: 1%;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+    line-height: 1.7em;
+    
+}
+.imgec1 img{
+    margin-top: 4%;
+    right: 140px;
+    position: absolute;
+    width: 550px;
+}
+.contatx1 img{
+    margin-top: 1%;
+    width: 50px;
+}
+.entrecontat1 h4{
+    margin-bottom: 2%;
+    margin-top: 3%;
+    text-align: left;
+    font-family: Tahoma;
+    font-size: 35px;
+    color: rgb(230, 146, 86);
+}
+.entrecontat1 a{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(61, 61, 61);
+    line-height: 1.7em;
+    
+}
+.body4{
+    background-color: rgba(248, 234, 221);
+}
