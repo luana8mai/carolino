@@ -905,10 +905,13 @@ margin-left: 54%;
     line-height: 40px;
 }
 
-
-
-
-
+.barrainfe2{
+margin-top: 162%;
+    position: absolute;
+    height: 80px;
+    background-color: rgb(230, 146, 86);
+   width: 100%;
+}
 
 /* TÍTULO CAROLINOS HOME NA IMAGEM */
 
@@ -916,6 +919,4 @@ margin-left: 54%;
     text-align: center;
     padding-top: 450px;
 }
-
-
 
