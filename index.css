@@ -25,7 +25,6 @@ rosinha escura: 187, 123, 121
 
 /* MENU */
 {
-   
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
@@ -34,26 +33,22 @@ rosinha escura: 187, 123, 121
 
 #b-menu{
     width: 100%;
-  
-   position: absolute;
+    position: absolute;
     background-color: rgb(255, 255, 255);
-  
 }
 
 #b-menu ul{ 
-  
     text-align: center;
     list-style-type: none;
-padding: 0;
-background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
 
 }
 
 #b-menu ul li{
+    background-color: rgb(255, 255, 255);
     display: inline;
-  text-align: center;
+    text-align: center;
 }
-
 
 #b-menu ul li a{
     
@@ -72,87 +67,58 @@ transition: color .5s;
 color:rgb(31, 171, 226) ;
 }
 
-
-#b-menu ul li:nth-child(2){
-    margin-right: 155px;
-}
-#b-menu ul li:nth-child(3){
-    margin-left: 120px;
-}
-#b-menu ul li:nth-child(1n+4) a{
-    text-align: right;
-}
-
 .logo{
-    text-align: center;
-    margin-top: 0px;
-    position: absolute;
-    top: 0px;
-    left: 42%;
+    height: 500px;
     width: 260px;
-    height: 64px;
-    background-image: url(Fotos/Logos/logodosite2.png);
-    background-size:200px;
-    background-repeat: no-repeat;
-    
-  }
-
+    display: inline;
+}
+.logo img{
+    margin-bottom: -20px;
+    text-align: center;
+    width: 200px;
+}
 
 /* FIM MENU */
 
-
-.body1{
-
-    width: 100vw;
-    height: 100vh;
-    background: url(Fotos/Comidas/lllkedit2\ \(3\).jpg);
+.imgindex img{
+    margin-top: 88px;
+    width: 100%;
     background-size: cover;
-    background-color: rgba(237, 174, 123,);
-    background-repeat: no-repeat;
-    background-position-y: 90px;
-    background-blend-mode: darken;
-   
-  }
-
-
-
+}
 
 /* SOBRE NÓS HOME */
 
 
-.aboutus{
-   text-decoration: none;
+.sec_block{
+    text-decoration: none;
     background-color: rgb(255, 255, 255);
-   margin-top: 34%;
     margin-bottom: 5%;
     padding: 100px, 0px;
     align-items: left;
-   height: 350px;
-   
+    height: 350px;
     }
-.sobrenozes{
+.cont_sobrenos{
+    margin-top: 50px;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 5%;
     margin-bottom: 5%;
 }
 
-.aboutus h3{
-    margin-top: 1%;
+.sec_block h3{
     text-align: left;
     font-family: Tahoma;
     font-size: 35px;
     color: rgb(230, 146, 86);
 
 }
-.aboutus h2{
+.sec_block h2{
     text-align: left;
     font-family: Tahoma;
     font-size: 55px;
     color: rgb(240, 111, 18);
 }
 
-.aboutus p{
+.sec_block p{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
@@ -185,7 +151,7 @@ color:rgb(31, 171, 226) ;
    
 }
 
-.aboutus h4{
+.sec_block h4{
 
     color: rgb(219, 99, 13);
     font-size: 30px;
@@ -345,16 +311,16 @@ margin-top: 1%;
     
 }
 
-/*barra inferior*/
+/*RODAPÉ*/
 
-.barrainfe{
+footer{
     height: 80px;
     background-color: rgb(230, 146, 86);
    
     
 }
 .compface p{
-   margin-left: 10%;
+    margin-left: 10%;
     margin-top: 1.7%;
     position: absolute;
     font-family: Tahoma;
