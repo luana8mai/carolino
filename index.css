@@ -295,13 +295,7 @@ footer{
     text-align: center;
     line-height: 100px;
 }
-.barrainfe2{
-    margin-top: 162%;
-    position: absolute;
-    height: 80px;
-    background-color: rgb(230, 146, 86);
-    width: 100%;
-}
+
 /*página_sobre nós*/
 .lino1 img{
     margin-left: 58%;
@@ -356,6 +350,9 @@ footer{
 .body2{
     background-color: rgba(237, 174, 123,);
 }
+.marg1{
+    height: 88px;
+}
 #carda1{
     height: 60%;
     width: 100%;
@@ -363,8 +360,6 @@ footer{
     justify-content: center;
     align-items: center;
     background-color:rgb(250, 224, 202);
-    position: absolute;
-    margin-top: 6%;
 }    
 #card10{
     margin-top: 5%;
@@ -421,8 +416,6 @@ footer{
 
     /* página_cardápio menu do cardápio */
     .nssdlcpa{
-        position: absolute;
-        margin-top: 40%;
         width: 100%;
         height: 50px;
         background-color: rgb(230, 146, 86);
@@ -437,10 +430,8 @@ footer{
 
     /* página_cardápio panetones e chocotones*/
     .nssdlc_0{
-        position: absolute;
-        margin-top: 47%;
+        margin-top: 50px;
         width: 80%;
-        height: 500px;
         background-color: rgb(255, 255, 255);
         display: flex;
         margin-left: 10%;
@@ -461,11 +452,9 @@ footer{
         height: 240px;
     }
     .nssdlc_1{
+        margin-top: 50px;
         margin-left: 10%;
-        position: absolute;
-        margin-top: 66%;
         width: 80%;
-        height: 500px;
         background-color: rgb(255, 255, 255);
         display: flex;
     }
@@ -520,8 +509,7 @@ footer{
 
 /*página_cardápio rabanada*/
     .nssdlcrab{
-        position: absolute;
-        margin-top: 86.5%;
+        margin-top: 50px;
         width: 100%;
         height: 50px;
         background-color: rgb(230, 146, 86);
@@ -534,16 +522,13 @@ footer{
         font-size: 40px;
     }
     .cardrab{
-        position: absolute;
-        margin-top: 90.5%;
+        margin-top: 50px;
         width: 80%;
-        height: 500px;
         background-color: rgb(255, 255, 255);
-        margin-left: 10%;
+        margin-left: 12%;
     }
     .itens_cardrab{
         float: left;
-        margin-top: 5%;
         background-color: rgba(205, 220, 230, 0.445);
         width: 565px;
         height: 240px;
@@ -602,8 +587,7 @@ footer{
 
 /*página_cardápio quiches*/
     .nssdlcqui{
-        margin-top: 116%;
-        position: absolute;
+        margin-top: 50px;
         float: left;
         width: 100%;
         height: 50px;
@@ -617,24 +601,21 @@ footer{
         font-size: 40px;
     }
     .cardqui{
+        margin-top: 50px;
         display: flex;
-        position: absolute;
-        margin-top: 123%;
         width: 80%;
-        height: 300px;
         background-color: rgb(255, 255, 255);
         margin-left: 10%;
     }
     .cardqui_1{
         display: flex;
-        position: absolute;
-        margin-top: 142%;
         width: 80%;
-        height: 300px;
         background-color: rgb(255, 255, 255);
         margin-left: 10%;
+        margin-bottom: 50px;
     }
     .itens_quiche{
+        margin-top: 50px;
         background-color: rgba(205, 220, 230, 0.445);
         width: 570px;
         height: 240px;
