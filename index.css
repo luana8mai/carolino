@@ -67,6 +67,7 @@
         align-items: left;
     }
     .cont_sobrenos{
+        width: 600px;
         margin-top: 50px;
         margin-right: 10%;
         margin-left: 10%;
@@ -92,6 +93,7 @@
         line-height: 1.7em;
     }
     .lino img{
+        margin-top: -350px;
         margin-left: 62%;
         width: 250px;
         height: 255px;
@@ -108,7 +110,7 @@
         border:solid 7px;
         border-color: rgb(140, 204, 248);
         margin-left: 50%;
-        margin-top: 8%;
+        margin-top: -250px;
     }
     .sec_block h4{
         color: rgb(219, 99, 13);
@@ -218,7 +220,7 @@
         margin-top: 3%;
     }
     .entrecontat p{
-        margin-left: 4.5%;
+        margin-left: 70px;
         margin-top: 1%;
         position: absolute;
         font-family: Arial, Helvetica, sans-serif;
@@ -263,7 +265,7 @@ footer{
     margin-top: 1.7%;
     position: absolute;
     font-family: Tahoma;
-    font-size: 16px;
+    font-size: min(5vw,16px);
     color: rgb(255, 255, 255);
     line-height: 1.7em;
 }
@@ -281,7 +283,7 @@ footer{
     margin-top: 1.7%;
     position: absolute;
     font-family: Tahoma;
-    font-size: 16px;
+    font-size: min(5vw,16px);
     color: rgb(255, 255, 255);
     line-height: 1.7em; 
 }
@@ -782,15 +784,16 @@ footer{
     display:block;  
     width: 100%;
     margin: auto;
-    background-color: #555;
     position: absolute;
-    color: white;
+    color: rgb(0, 0, 0);
     border-radius: 10px;
+    height: 90px;
 }
 
 .topnav {
+    position: absolute;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
     position: relative;
 }
 
@@ -799,15 +802,18 @@ footer{
   }
   
   .topnav a {
-    color: white;
+    
+    color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
     display: block;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
   }
   
   .topnav a.icon {
-    background: black;
+    background: rgb(255, 255, 255);
     display: block;
     position: absolute;
     right: 0;
@@ -815,12 +821,53 @@ footer{
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   .active {
     color: white;
   }
+
+  .active img{
+    width: 200px;
   }
+  .iconvert img{
+    width: 50px;
+  }
+.imgec1 img{
+display: none;
+}
+.lino img{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.dadai img{
+    position: relative;
+    margin-left: 0%;
+}
+.sec_block{
+height: 650px;
+}
+.imgec img{
+    display: none;
+}
+#cardaindex {
+display: block;
+height: 1110px;
+}
+
+#cardind1 img{
+    margin-top: 2%;
+    margin-left: 25%;
+}
+#cardind2 img{
+    margin-left: 30%;
+}
+#cardind3 img{
+    margin-left: 30%;
+}
+}
   
