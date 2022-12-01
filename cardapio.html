@@ -10,6 +10,22 @@
 </head>
 
 <body class="body2">
+
+    <div class="menuvertical">
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+        <a href="index.html" class="active"><img src="Fotos/Logos/logo.png"></a>
+        <div id="myLinks">
+            <a href="sobrenos.html">Sobre nós</a>
+            <a href="cardapio.html">Nosso Cardápio</a>
+            <a href="contatos.html">Contato</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="iconvert"><img src="Fotos/Logos/imgvertical.png"></i>
+        </a>
+        </div>
+</div>
+
     <div id="b-menu">
         <ul id="menu">
             <li><a href="index.html">Home</a></li>
@@ -189,5 +205,16 @@
             <p>Vila Velha, ES | (27) 99847 5678</p>
         </footer>
     </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
 </body>
 </html>
