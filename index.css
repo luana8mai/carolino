@@ -869,5 +869,21 @@ height: 1110px;
 #cardind3 img{
     margin-left: 30%;
 }
+.sec_block{
+    height: 1000px;
 }
-  
+.lino1 img{
+    position: relative;
+    margin-left: 430px;
+    margin-top: 10px;
+}
+.dadai1 img{
+    margin-top: -300px;
+    position: relative;
+    margin-left: 10%;
+}
+.bigimg img{
+    display: none;
+}
+}
+
