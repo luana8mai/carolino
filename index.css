@@ -67,7 +67,7 @@
         align-items: left;
     }
     .cont_sobrenos{
-        width: 600px;
+
         margin-top: 50px;
         margin-right: 10%;
         margin-left: 10%;
@@ -76,7 +76,7 @@
     .sec_block h3{
         text-align: left;
         font-family: Tahoma;
-        font-size: 35px;
+        font-size: 1.5em;
         color: rgb(230, 146, 86);
     }
     .sec_block h2{
@@ -90,13 +90,12 @@
         font-family: Arial, Helvetica, sans-serif;
         font-size: 17px;
         color: rgb(61, 61, 61);
-        line-height: 1.7em;
+        line-height: 1.5em;
     }
     .lino img{
         margin-top: -350px;
         margin-left: 62%;
         width: 250px;
-        height: 255px;
         border-radius: 100%;
         position: absolute;
         border:solid 7px;
@@ -104,7 +103,6 @@
     }
     .dadai img{
         width: 250px;
-        height: 255px;
         border-radius: 100%;
         position: absolute;
         border:solid 7px;
@@ -157,7 +155,7 @@
     }   
     #cardind1 img{
         width: 300px;
-        height: 300px;
+
         position: relative; 
         border-radius: 100%;
         border: solid 7px;
@@ -170,8 +168,7 @@
         margin-bottom: 5%;
     }
     #cardind2 img{
-        width: 300px;
-        height: 300px;   
+        width: 300px;  
         position: relative;
         border-radius: 100%;
         border: solid 7px;
@@ -187,7 +184,6 @@
     }
     #cardind3 img{
         width: 300px;
-        height: 300px;
         position: relative;   
         border-radius: 100%;
         border: solid 7px;
@@ -197,7 +193,7 @@
         text-align: center;
         font-family: Tahoma;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 1.5em;
         color: rgb(240, 111, 18);
     }
 
@@ -207,7 +203,6 @@
         background-color: rgb(255, 255, 255);
         margin-bottom: 5%;
         padding: 100px, 0px;
-        height: 550px;  
         margin-left: 10%;
         margin-right: 10%;
     }   
@@ -215,7 +210,7 @@
         margin-bottom: 3%;
         text-align: left;
         font-family: Tahoma;
-        font-size: 40px;
+        font-size: 2em;
         color: rgb(240, 111, 18); 
         margin-top: 3%;
     }
@@ -224,7 +219,7 @@
         margin-top: 1%;
         position: absolute;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-size: 1em;
         color: rgb(61, 61, 61);
         line-height: 1.7em;
     }
@@ -243,13 +238,13 @@
         margin-top: 3%;
         text-align: left;
         font-family: Tahoma;
-        font-size: 35px;
+        font-size: 1.7em;
         color: rgb(230, 146, 86);
     }
     .entrecontat a{
         text-align: left;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 20px;
+        font-size: 1em;
         color: rgb(61, 61, 61);
         line-height: 1.7em;
     }
@@ -265,11 +260,12 @@ footer{
     margin-top: 1.7%;
     position: absolute;
     font-family: Tahoma;
-    font-size: min(5vw,16px);
+    font-size: 1em;
     color: rgb(255, 255, 255);
     line-height: 1.7em;
 }
 .compface a{
+    font-size: 1em;
     color:  rgb(172, 74, 5);
     text-decoration: underline;
 }
@@ -283,7 +279,7 @@ footer{
     margin-top: 1.7%;
     position: absolute;
     font-family: Tahoma;
-    font-size: min(5vw,16px);
+    font-size: 1em;
     color: rgb(255, 255, 255);
     line-height: 1.7em; 
 }
@@ -299,9 +295,9 @@ footer{
 
 /*página_sobre nós*/
 .lino1 img{
-    margin-left: 58%;
+    margin-top: -600px;
+    margin-left: 70%;
     width: 300px;
-    height: 305px;
     border-radius: 100%;
     position: absolute;
     border:solid 7px;
@@ -309,13 +305,12 @@ footer{
 }
 .dadai1 img{
     width: 300px;
-    height: 305px;
     border-radius: 100%;
     position: absolute;
     border:solid 7px;
     border-color: rgb(140, 204, 248);
-    margin-left: 43%;
-    margin-top: 11%;
+    margin-left: 55%;
+    margin-top: -470px;
 }
 .sobrenospagimg{
     background-color: rgb(250, 224, 202);
@@ -370,7 +365,6 @@ footer{
 }   
 #card10 img{
     width: 300px;
-    height: 300px;
     position: relative; 
     border-radius: 100%;
     border: solid 7px;
@@ -384,7 +378,7 @@ footer{
 }
 #card20 img{
     width: 300px;
-    height: 300px;   
+
     position: relative;
     border-radius: 100%;
     border: solid 7px;
@@ -400,7 +394,6 @@ footer{
 }
 #card30 img{
     width: 300px;
-    height: 300px;
     position: relative;   
     border-radius: 100%;
     border: solid 7px;
@@ -410,7 +403,7 @@ footer{
     text-align: center;
     font-family: Tahoma;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.5em;
     color: rgb(240, 111, 18);
 }
 
@@ -706,7 +699,7 @@ footer{
     margin-bottom: 3%;
     text-align: left;
     font-family: Tahoma;
-    font-size: 40px;
+    font-size: 2em;
     color: rgb(240, 111, 18); 
     margin-top: 3%;
 }
@@ -715,7 +708,7 @@ footer{
     margin-top: 1%;
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1em;
     color: rgb(61, 61, 61);
     line-height: 1.7em;
     
@@ -739,13 +732,13 @@ footer{
     margin-top: 3%;
     text-align: left;
     font-family: Tahoma;
-    font-size: 35px;
+    font-size: 1.5em;
     color: rgb(230, 146, 86);
 }
 .entrecontat1 a{
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1em;
     color: rgb(61, 61, 61);
     line-height: 1.7em;
 }
@@ -840,50 +833,106 @@ footer{
 display: none;
 }
 .lino img{
+    width: 40%;
     position: relative;
-    margin-left: 300px;
+    margin-left: 40%;
     margin-top: 10px;
 }
 .dadai img{
+    width: 40%;
     position: relative;
     margin-left: 0%;
 }
-.sec_block{
-height: 650px;
+#nossahistoria {
+    font-size: 2em;
 }
+
+.sec_block p{
+    width: auto;
+font-size: 1em;
+}
+
 .imgec img{
     display: none;
 }
 #cardaindex {
 display: block;
-height: 1110px;
 }
 
 #cardind1 img{
+    width: 40%;
     margin-top: 2%;
     margin-left: 25%;
 }
 #cardind2 img{
+    width: 40%;
     margin-left: 30%;
 }
 #cardind3 img{
-    margin-left: 30%;
+    width: 40%;
+    margin-left: 35%;
 }
-.sec_block{
-    height: 1000px;
-}
+
 .lino1 img{
+    margin-left: 50%;
+    width: 40%;
     position: relative;
-    margin-left: 430px;
     margin-top: 10px;
 }
 .dadai1 img{
+    width: 40%;
     margin-top: -300px;
     position: relative;
     margin-left: 10%;
 }
 .bigimg img{
     display: none;
+}
+.smaimg1 img{
+    width: 50%;
+}
+.smaimg2 img{
+    width: 50%;
+    margin-bottom: 5%;
+}
+.sobrenospagimg{
+    height: auto;
+}
+#card10 img{   
+    margin-top: 35%;
+    width: 60%;
+
+}
+#card20 img{
+    width: 60%;
+    
+}
+#card30 img{
+    width: 60%;
+}
+#carda1{
+
+    display: block;
+}
+#carda1 img {
+    display: block;
+}
+
+.nssdlcpa h1{
+
+    font-size:1.7em ;
+}
+.nssdlc_0{
+    display: block;
+}
+.nssdlc_1{
+    display: block;
+}
+.cardqui{
+    display: block;
+}
+.cardqui_1{
+    display: block;
 }
 }
 
