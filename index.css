@@ -860,17 +860,18 @@ display: block;
 }
 
 #cardind1 img{
-    width: 40%;
+    width: 60%;
     margin-top: 2%;
-    margin-left: 25%;
+    margin-left: 18%;
 }
 #cardind2 img{
-    width: 40%;
-    margin-left: 30%;
+    width: 60%;
+    margin-left: 20%;
+
 }
 #cardind3 img{
-    width: 40%;
-    margin-left: 35%;
+    width: 60%;
+    margin-left: 20%;
 }
 
 .lino1 img{
@@ -930,9 +931,55 @@ display: block;
 }
 .cardqui{
     display: block;
+    margin-top: 600px;
 }
 .cardqui_1{
     display: block;
 }
+
+.itens_card{
+    background-color: #FFF;
+    width: 60%;
+    margin-bottom: 250px;
+}
+.itens_card p {
+    width: 240px;
+}
+.itens_cardrab{
+    background-color: #FFF;
+    width: 60%;
+    margin-bottom: 150px;
+}
+.itens_cardrab p {
+    width: 240px;
+}
+.precosrab{
+    margin: 0;
+}
+.itens_quiche{
+    background-color: rgba(255, 255, 255, 0);
+    width: 60%;
+    margin-bottom: 300px;
+}
+.itens_quiche h3{
+    width: 240px;
+}
+.tamanho_itens{
+    margin: 0;
+
+}
+.precos {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.unidades{
+    margin: 0;
+}
+.precosqui{
+    width: 250px;
+    margin-left:50px;
+}
+
+
 }
 
